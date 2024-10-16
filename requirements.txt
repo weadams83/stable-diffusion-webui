@@ -1,14 +1,14 @@
 GitPython
 Pillow
 accelerate
-
+ffmpeg
 basicsr
 blendmodes
 clean-fid
 einops
 fastapi>=0.90.1
 gfpgan
-gradio==3.41.2
+gradio
 inflection
 jsonmerge
 kornia
@@ -16,14 +16,14 @@ lark
 numpy
 omegaconf
 open-clip-torch
-
+tqdm==4.66.5
 piexif
 psutil
 pytorch_lightning
 realesrgan
 requests
 resize-right
-
+insightface==0.7.3
 safetensors
 scikit-image>=0.19
 timm
@@ -31,4 +31,12 @@ tomesd
 torch
 torchdiffeq
 torchsde
-transformers==4.30.2
+transformers>=4.30.2
+onnx>=1.16.0
+onnxruntime>=1.19.2
+opencv-python>=4.10.0.84
+ifnude==0.0.3
+pyre-extensions
+# onnxruntime-gpu==1.19.2
+xformers==0.0.28.post1
+websockets==13.1
